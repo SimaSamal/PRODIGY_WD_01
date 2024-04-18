@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  
+}
+#container {
+  top: 0;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  z-index: 1000;
+  padding: 0 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.menu li {
+  margin-right: 20px;
+}
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu li {
+    margin: 0 15px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color:#fff;
+    padding: 10px;
+    transition: color 0.3s ease;
+  }
+  
+
+  .section {
+    padding: 220px 20px;
+    text-align: center;
+  }
+  .section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: rgb(0, 38, 255);
+  }
+  .section p {
+    font-size: 18px;
+  }
+  
+ 
+  footer{
+    color:white;
+    height: 48px;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+  }
+  h1{
+    color: rgb(23, 176, 0);
+    padding-left: 10px;
+  }
+ img{
+
+   height: 700px;
+   width: 100%;
+   margin-top: 72px;
+
+ }
+ p{
+  padding-left: 20px;
+ }
+ h2{
+  padding-left: 20px;
+ }
+ .Forest{
+  font-size: 90px;
+  font-family: 'Times New Roman', Times, serif;
+  color: green;
+  top: 120px;
+  left: 40%;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+ }
